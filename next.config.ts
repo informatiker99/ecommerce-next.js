@@ -11,6 +11,7 @@ const nextConfig = {
       "res.cloudinary.com",
       "lh3.googleusercontent.com",
       "upload.wikimedia.org",
+      "cdn.pixabay.com"
     ],
   },
   experimental: {
@@ -18,9 +19,9 @@ const nextConfig = {
   },
   env: {
     NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME:
-      "INSERT CLOUD NAME HERE*******************************",
+      "dcoupbqro",
     NEXT_PUBLIC_CLOUDINARY_PRESET_NAME:
-      "INSERT PRESET NAME HERE ******************************",
+      "ecommerce-1",
   },
   webpack: (config: any) => {
     config.resolve.alias["@"] = resolve(__dirname);
